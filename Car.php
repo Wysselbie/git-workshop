@@ -3,23 +3,23 @@
 
 class Car
 {
-    protected $manufactor;
-    protected $doors;
+    protected $_manufactor;
+    protected $_doors;
 
     /**
      * @return mixed
      */
     public function getDoors()
     {
-        return $this->doors;
+        return $this->_doors;
     }
 
     /**
-     * @param mixed $doors
+     * @param mixed $_doors
      */
-    public function setDoors($doors)
+    public function setDoors($_doors)
     {
-        $this->doors = $doors;
+        $this->_doors = $_doors;
     }
 
     /**
@@ -27,15 +27,15 @@ class Car
      */
     public function getManufactor()
     {
-        return $this->manufactor;
+        return $this->_manufactor;
     }
 
     /**
-     * @param mixed $manufactor
+     * @param mixed $_manufactor
      */
-    public function setManufactor($manufactor)
+    public function setManufactor($_manufactor)
     {
-        $this->manufactor = $manufactor;
+        $this->_manufactor = $_manufactor;
     }
 
 }
